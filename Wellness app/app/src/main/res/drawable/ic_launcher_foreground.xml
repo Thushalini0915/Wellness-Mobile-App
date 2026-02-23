@@ -1,0 +1,63 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M0,0h108v108h-108z" />
+    
+    <!-- Main ring with gradient effect -->
+    <path
+        android:fillColor="#32CD32"
+        android:pathData="M54,54m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    
+    <!-- Inner cutout -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,54m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0" />
+    
+    <!-- S-curve divider -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,19 Q70,35 65,54 Q60,73 54,89" />
+    
+    <!-- Left section (lime green with highlight) -->
+    <path
+        android:fillColor="#00FF00"
+        android:pathData="M54,19 A45,45 0,0,1 9,54 A45,45 0,0,1 54,89 L54,19 Z" />
+    
+    <!-- Right section (emerald green) -->
+    <path
+        android:fillColor="#00CC66"
+        android:pathData="M54,19 A45,45 0,0,0 99,54 A45,45 0,0,0 54,89 L54,19 Z" />
+    
+    <!-- Highlight on left section -->
+    <path
+        android:fillColor="#66FF66"
+        android:pathData="M54,19 A45,45 0,0,1 25,40 A35,35 0,0,1 54,19 Z" />
+    
+    <!-- Silver metallic border -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#C0C0C0"
+        android:strokeWidth="3"
+        android:pathData="M54,54m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    
+    <!-- Inner silver border -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#C0C0C0"
+        android:strokeWidth="2"
+        android:pathData="M54,54m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0" />
+    
+    <!-- S-curve silver border -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#C0C0C0"
+        android:strokeWidth="2"
+        android:pathData="M54,19 Q70,35 65,54 Q60,73 54,89" />
+    
+</vector>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_bed"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Sleep icon"
+            android:tint="@color/primary" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:id="@+id/tvSleepDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.5 hours"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSleepQuality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quality: 8/10"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvSleepDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03 Oct 2025"
+                android:textSize="13sp"
+                android:textColor="@color/text_hint"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvSleepNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good night's sleep"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginTop="4dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

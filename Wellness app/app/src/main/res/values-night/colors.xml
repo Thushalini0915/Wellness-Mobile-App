@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    
+    <color name="primary">#64B5F6</color>
+    <color name="primary_light">#90CAF9</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_variant">#42A5F5</color>
+    
+
+    <color name="secondary">#81C784</color>
+    <color name="secondary_light">#A5D6A7</color>
+    <color name="secondary_dark">#4CAF50</color>
+    <color name="secondary_variant">#66BB6A</color>
+    
+
+    <color name="accent">#29B6F6</color>
+    <color name="accent_light">#81D4FA</color>
+    <color name="accent_dark">#0288D1</color>
+    
+
+    <color name="success">#81C784</color>
+    <color name="warning">#FFB74D</color>
+    <color name="error">#E57373</color>
+    <color name="info">#64B5F6</color>
+    
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_hint">#80FFFFFF</color>
+    <color name="text_disabled">#61FFFFFF</color>
+    <color name="text_on_primary">#000000</color>
+    <color name="text_on_secondary">#000000</color>
+    <color name="text_on_surface">#FFFFFF</color>
+    <color name="text_on_background">#FFFFFF</color>
+    
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="surface_variant">#2C2C2C</color>
+    <color name="surface_container">#252525</color>
+    <color name="error_background">#2D1B1B</color>
+    
+    <color name="outline">#404040</color>
+    <color name="outline_variant">#2C2C2C</color>
+    <color name="divider">#404040</color>
+    
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="gradient_start">#2C1810</color>
+    <color name="gradient_end">#1A0F08</color>
+    <color name="gradient_peach_start">#3D2F1A</color>
+    <color name="gradient_peach_end">#2C1F0F</color>
+    
+    <color name="card_background">#1E1E1E</color>
+    <color name="card_elevated">#252525</color>
+    <color name="promotional_card">#294C66</color>
+    
+    <color name="mood_happy">#FFF176</color>
+    <color name="mood_sad">#64B5F6</color>
+    <color name="mood_angry">#E57373</color>
+    <color name="mood_tired">#BA68C8</color>
+    <color name="mood_calm">#81C784</color>
+    
+    <color name="chart_1">#64B5F6</color>
+    <color name="chart_2">#81C784</color>
+    <color name="chart_3">#FFB74D</color>
+    <color name="chart_4">#E57373</color>
+    <color name="chart_5">#BA68C8</color>
+    <color name="chart_6">#90CAF9</color>
+    <color name="chart_7">#A1887F</color>
+    
+    <color name="button_primary">#64B5F6</color>
+    <color name="button_secondary">#1E1E1E</color>
+    <color name="button_outline">#64B5F6</color>
+    <color name="button_text_primary">#000000</color>
+    <color name="button_text_secondary">#64B5F6</color>
+    
+    <color name="nav_background">#1E1E1E</color>
+    <color name="nav_selected">#64B5F6</color>
+    <color name="nav_unselected">#757575</color>
+    
+    <color name="calendar_selected">#64B5F6</color>
+    <color name="calendar_today">#64B5F6</color>
+    <color name="calendar_other_month">#616161</color>
+    
+    <color name="teal_700">#4DB6AC</color>
+</resources>

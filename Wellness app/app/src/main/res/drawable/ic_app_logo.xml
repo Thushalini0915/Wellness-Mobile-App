@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="@color/background"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Blue outer border -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#2196F3"
+        android:strokeWidth="3"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+    
+    <!-- Outer ring removed for minimal clock style -->
+    
+    
+    <!-- Inner circle (cutout) -->
+    <path
+        android:fillColor="@color/surface"
+        android:pathData="M54,54m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0" />
+
+    <!-- Primary ring outline for emphasis -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/primary"
+        android:strokeWidth="2"
+        android:pathData="M54,54m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0" />
+    
+    <!-- Clock pattern: 12 subtle tick marks inside inner circle -->
+    <!-- Cardinal ticks (12, 3, 6, 9) -->
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#1A000000" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M54,22 L54,26" />
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#1A000000" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M86,54 L82,54" />
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#1A000000" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M54,86 L54,82" />
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#1A000000" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M22,54 L26,54" />
+
+    <!-- 30° increments (2, 5, 8, 11 positions) -->
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#14000000" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M82,40 L78,43" />
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#14000000" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M82,68 L78,65" />
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#14000000" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M26,43 L30,40" />
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#14000000" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M26,65 L30,68" />
+
+    <!-- Central checkmark (habit tick) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/primary_variant"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M44,54 L52,62 L68,42" />
+
+</vector>

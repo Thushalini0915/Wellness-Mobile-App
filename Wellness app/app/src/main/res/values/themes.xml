@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - Light theme -->
+    <style name="Theme.WellnessApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color - Light theme -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        
+        <!-- Secondary brand color - Light theme -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/text_on_secondary</item>
+        
+        <!-- Background colors - Light theme -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/text_on_background</item>
+        <item name="colorOnSurface">@color/text_on_surface</item>
+        
+        <!-- Status bar color - Light theme -->
+        <item name="android:statusBarColor">@color/background</item>
+        
+        <!-- Customize your theme here - Light theme -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        
+        <!-- Material Components theming - Light theme -->
+        <item name="materialButtonStyle">@style/Widget.WellnessApp.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.WellnessApp.CardView</item>
+        <item name="floatingActionButtonStyle">@style/Widget.WellnessApp.FloatingActionButton</item>
+        <item name="textInputStyle">@style/Widget.WellnessApp.TextInputLayout</item>
+        <item name="bottomNavigationStyle">@style/Widget.WellnessApp.BottomNavigationView</item>
+    </style>
+
+    <!-- Button style - Light theme -->
+    <style name="Widget.WellnessApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/button_text_primary</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="backgroundTint">@color/button_primary</item>
+    </style>
+    
+    <!-- Button outline style - Light theme -->
+    <style name="Widget.WellnessApp.Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/button_text_secondary</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="strokeColor">@color/button_outline</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+    
+    <!-- CardView style - Light theme -->
+    <style name="Widget.WellnessApp.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+    
+    <!-- FloatingActionButton style - Light theme -->
+    <style name="Widget.WellnessApp.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="tint">@color/text_on_secondary</item>
+        <item name="backgroundTint">@color/primary</item>
+    </style>
+    
+    <!-- TextInputLayout style - Light theme -->
+    <style name="Widget.WellnessApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/outline</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    
+    <!-- BottomNavigationView style - Light theme -->
+    <style name="Widget.WellnessApp.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@drawable/bottom_nav_selector</item>
+        <item name="itemTextColor">@drawable/bottom_nav_selector</item>
+        <item name="android:background">@color/nav_background</item>
+    </style>
+    
+    <!-- Dialog theme - Light theme -->
+    <style name="Theme.WellnessApp.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+    
+    <!-- Onboarding theme - Light theme -->
+    <style name="Theme.WellnessApp.Onboarding" parent="Theme.WellnessApp">
+        <item name="android:windowBackground">@drawable/onboarding_gradient_background</item>
+    </style>
+</resources>

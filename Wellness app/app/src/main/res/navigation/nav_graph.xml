@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapp1.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_habits"
+        android:name="com.example.myapp1.HabitsFragment"
+        android:label="@string/title_habits"
+        tools:layout="@layout/fragment_habits">
+        <action
+            android:id="@+id/action_habits_to_add_edit_habit"
+            app:destination="@id/addEditHabitFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_mood"
+        android:name="com.example.myapp1.MoodFragment"
+        android:label="@string/title_mood"
+        tools:layout="@layout/fragment_mood" />
+
+    <fragment
+        android:id="@+id/navigation_water"
+        android:name="com.example.myapp1.WaterTrackingFragment"
+        android:label="@string/title_water"
+        tools:layout="@layout/fragment_water_tracking" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.myapp1.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <dialog
+        android:id="@+id/addEditHabitFragment"
+        android:name="com.example.myapp1.AddEditHabitDialog"
+        android:label="@string/add_habit"
+        tools:layout="@layout/dialog_add_edit_habit">
+        <argument
+            android:name="habitId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </dialog>
+
+    <dialog
+        android:id="@+id/moodEntryDialog"
+        android:name="com.example.myapp1.MoodEntryDialog"
+        android:label="@string/add_mood"
+        tools:layout="@layout/dialog_mood_entry" />
+
+    <dialog
+        android:id="@+id/addWaterDialog"
+        android:name="com.example.myapp1.AddWaterDialog"
+        android:label="@string/add_water"
+        tools:layout="@layout/dialog_add_water" />
+
+</navigation>
